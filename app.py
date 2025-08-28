@@ -96,7 +96,7 @@ class Bot(commands.Bot):
         """Ping Flask to keep Render awake every 1 minute"""
         if self.session:
             try:
-                url = "https://bot-info-ff.onrender.com"  # رابط سيرفرك
+                url = "https://bot-bt00.onrender.com"  # رابط سيرفرك
                 async with self.session.get(url) as response:
                     print(f"💡 Keep-Alive ping status: {response.status}")
             except Exception as e:
